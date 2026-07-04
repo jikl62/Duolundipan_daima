@@ -109,7 +109,7 @@ volatile float swerve_drive_direction[SWERVE_MODULE_NUM] =
 {
     1.0f, -1.0f, 1.0f, -1.0f    //原来是1.0f, 1.0f, -1.0f, -1.0f,这个是6月28日最新的
 };
-
+//在这里尝试提交一下
 volatile float swerve_steer_zero_correction[SWERVE_MODULE_NUM] =
 {
     0.0f,  /* FL */
@@ -117,6 +117,17 @@ volatile float swerve_steer_zero_correction[SWERVE_MODULE_NUM] =
     0.0f,  /* RL */
     0.0f   /* RR */
 };
+
+volatile float meiyouyongdetijiao[3]={
+    1.0f,
+    2.0f,
+    3.0f
+    
+};
+
+
+
+
 
 
 
