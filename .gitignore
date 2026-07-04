@@ -1,0 +1,46 @@
+# IDE local settings
+.idea/
+.vscode/
+
+# CMake and local build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Logs
+*.log
+
+# Firmware/build artifacts
+*.elf
+*.hex
+*.bin
+*.map
+*.axf
+*.o
+*.obj
+*.d
+*.lst
+*.su
+*.cyclo
+
+# Keil MDK generated output directories
+MDK-ARM/**/Objects/
+MDK-ARM/**/Listings/
+MDK-ARM/**/build/
+
+# Keil temporary/user-local files
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+*.dep
+*.crf
+*.htm
+*.lnp
+*.iex
+*.sct
+*.bak
+*.tmp
